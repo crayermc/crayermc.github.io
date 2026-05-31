@@ -13,7 +13,23 @@ body {
 }
 
 .logo {
-  width: 80px;
+  width: 90px;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 /* center content */
