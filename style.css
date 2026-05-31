@@ -13,10 +13,10 @@ body {
 }
 
 .logo {
-  width: 90px;
-  position: relative;
+  width: 120px;
   animation: float 3s ease-in-out infinite;
-  filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+  display: block;
+  margin: 0 auto;
 }
 .logo:hover {
   transform: scale(1.1);
