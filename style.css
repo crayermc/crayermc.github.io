@@ -1,1 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: url("bg.jpg") no-repeat center center/cover;
+  color: white;
+}
 
+/* logo top */
+.top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+/* center content */
+.center {
+  text-align: center;
+  margin-top: 18%;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.ip {
+  background: rgba(0,0,0,0.6);
+  padding: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #5865F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
