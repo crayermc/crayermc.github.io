@@ -182,3 +182,64 @@ h1 {
   background: rgba(0, 195, 255, 0.8);
 }
 
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+  .center {
+    margin-top: 35%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .ip {
+    width: 90%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .java-note {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .btn {
+    display: block;
+    margin: 12px auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  .store-icon,
+  .info-icon {
+    font-size: 22px;
+    padding: 8px 10px;
+  }
+
+  .grid,
+  .feature-grid,
+  .event-grid,
+  .leaderboard {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .feature-card,
+  .event-card,
+  .leader-card {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .notice {
+    width: 90%;
+    font-size: 13px;
+  }
+
+}
