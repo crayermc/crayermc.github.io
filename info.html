@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crayer MC Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="info-body">
+
+<!-- BACK BUTTON -->
+<a href="index.html" class="back-home">← Back to Home</a>
+
+<!-- HEADER -->
+<div class="info-header">
+  <h1>CRAYER MC INFORMATION</h1>
+  <p>Server Stats • Events • Features</p>
+</div>
+
+<!-- SERVER FEATURES -->
+<div class="info-section">
+  <h2>🔥 SERVER FEATURES</h2>
+
+  <div class="feature-grid">
+
+    <div class="feature-card">
+      <h3>⚔️ Lifesteal SMP</h3>
+      <p>Fight players, steal hearts, become the strongest player on the server.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>🌿 Survival SMP</h3>
+      <p>Classic survival gameplay with economy, shops, and land system.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>🎮 Practice Mode</h3>
+      <p>Improve your PvP skills with practice arenas and custom kits.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>💎 Economy System</h3>
+      <p>Earn money, trade with players, and become the richest on the server.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>🏆 Custom Events</h3>
+      <p>Weekly events with rewards, PvP tournaments, and giveaways.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>📱 Crossplay Support</h3>
+      <p>Both Java and Bedrock players can join and play together.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- SURVIVAL TOP RICH -->
+<div class="info-section">
+  <h2>💰 TOP 3 RICHEST PLAYERS (SURVIVAL)</h2>
+
+  <div class="leaderboard">
+    <div class="leader-card">
+      <h3>#1 ShadowKing</h3>
+      <p>Balance: $5,250,000</p>
+    </div>
+
+    <div class="leader-card">
+      <h3>#2 DragonOP</h3>
+      <p>Balance: $4,120,000</p>
+    </div>
+
+    <div class="leader-card">
+      <h3>#3 FrostYT</h3>
+      <p>Balance: $3,760,000</p>
+    </div>
+  </div>
+</div>
+
+<!-- LIFESTEAL TOP RICH -->
+<div class="info-section">
+  <h2>❤️ TOP RICHEST PLAYER (LIFESTEAL)</h2>
+
+  <div class="leaderboard">
+    <div class="leader-card">
+      <h3>#1 VenomX</h3>
+      <p>Balance: $8,920,000</p>
+    </div>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="info-section">
+  <h2>🎉 SERVER EVENTS</h2>
+
+  <div class="event-grid">
+
+    <div class="event-card">
+      <h3>⚔️ PvP Tournament</h3>
+      <p>Every Saturday with amazing rewards and rank prizes.</p>
+    </div>
+
+    <div class="event-card">
+      <h3>💰 Money Drop Event</h3>
+      <p>Hidden loot and money drops across the server.</p>
+    </div>
+
+    <div class="event-card">
+      <h3>👑 King of Hill</h3>
+      <p>Capture the hill area and earn server rewards.</p>
+    </div>
+
+    <div class="event-card">
+      <h3>🎁 Giveaways</h3>
+      <p>Free kits, ranks, and coins during special events.</p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+<!-- ADD THIS CSS IN style.css -->
+
+<style>
+.info-body {
+  background: url("bg.jpg") no-repeat center center/cover;
+  color: white;
+  font-family: Arial;
+}
+
+.info-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.info-section {
+  margin: 40px 20px;
+}
+
+.info-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-grid,
+.event-grid,
+.leaderboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-card,
+.event-card,
+.leader-card {
+  background: rgba(0,0,0,0.75);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-card:hover,
+.event-card:hover,
+.leader-card:hover {
+  transform: scale(1.05);
+}
+</style>
