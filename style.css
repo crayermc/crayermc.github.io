@@ -243,3 +243,63 @@ h1 {
   }
 
 }
+/* MOBILE FIX FOR STORE + INFO PAGE */
+@media screen and (max-width: 768px) {
+
+  /* STORE PAGE */
+  .store-header h1,
+  .info-header h1 {
+    font-size: 32px;
+  }
+
+  .store-header p,
+  .info-header p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .section-title,
+  .info-section h2 {
+    font-size: 22px;
+  }
+
+  .grid,
+  .feature-grid,
+  .event-grid,
+  .leaderboard {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .card,
+  .feature-card,
+  .event-card,
+  .leader-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .notice {
+    width: 90%;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .buy {
+    display: block;
+    width: 80%;
+    margin: 12px auto 0;
+    text-align: center;
+  }
+
+  .back-home {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .developer-credit {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+}
