@@ -116,3 +116,82 @@ footer{border-top:1px solid rgba(255,255,255,.07);background:#050a07;padding:45p
   nav.open{display:flex} nav a{padding:13px 10px} nav a.active:after{display:none}.nav-discord{display:none}
   .hero h1{font-size:62px}.section{padding:90px 0}.feature-grid{grid-template-columns:1fr}.news-grid{grid-template-columns:1fr}.news-card.large{grid-column:auto}.stats{grid-template-columns:repeat(2,1fr);gap:18px}.stats div:nth-child(2){border-right:0}.stats div:nth-child(3),.stats div:nth-child(4){border-top:1px solid rgba(255,255,255,.08);padding-top:18px}.footer-main{flex-direction:column;align-items:flex-start}.footer-bottom{flex-direction:column;gap:8px}
 }
+/* =========================
+   STAFF ROLE COLORS
+   ========================= */
+
+.role {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  line-height: 1;
+}
+
+.owner {
+  color: #ffbf00;
+  background: rgba(255, 191, 0, 0.15);
+  border: 1px solid rgba(255, 191, 0, 0.25);
+}
+
+.co-owner {
+  color: #ff8c00;
+  background: rgba(255, 140, 0, 0.15);
+  border: 1px solid rgba(255, 140, 0, 0.25);
+}
+
+.admin {
+  color: #ff3b3b;
+  background: rgba(255, 59, 59, 0.15);
+  border: 1px solid rgba(255, 59, 59, 0.25);
+}
+
+.discord-manager {
+  color: #7289da;
+  background: rgba(114, 137, 218, 0.15);
+  border: 1px solid rgba(114, 137, 218, 0.25);
+}
+
+.developer {
+  color: #4da6ff;
+  background: rgba(77, 166, 255, 0.15);
+  border: 1px solid rgba(77, 166, 255, 0.25);
+}
+
+.moderator {
+  color: #65d43a;
+  background: rgba(101, 212, 58, 0.15);
+  border: 1px solid rgba(101, 212, 58, 0.25);
+}
+
+.helper {
+  color: #5ee7ff;
+  background: rgba(94, 231, 255, 0.15);
+  border: 1px solid rgba(94, 231, 255, 0.25);
+}
+
+.builder {
+  color: #d99a5b;
+  background: rgba(217, 154, 91, 0.15);
+  border: 1px solid rgba(217, 154, 91, 0.25);
+}
+
+.media {
+  color: #ff6fb5;
+  background: rgba(255, 111, 181, 0.15);
+  border: 1px solid rgba(255, 111, 181, 0.25);
+}
+
+.event {
+  color: #a970ff;
+  background: rgba(169, 112, 255, 0.15);
+  border: 1px solid rgba(169, 112, 255, 0.25);
+}
+
+.trial-staff {
+  color: #b8c0cc;
+  background: rgba(184, 192, 204, 0.15);
+  border: 1px solid rgba(184, 192, 204, 0.25);
+}
